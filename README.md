@@ -17,7 +17,7 @@ Este repositório contém os projetos desenvolvidos durante o desafio **7 Days o
 
 ### Dia 1: Configuração Inicial e Primeira Rota
 
-**Tarefa:** [Preencha com a tarefa específica do Dia 1, ex: Configurar o ambiente com Python e Flask/Django, e criar a primeira rota `/` que retorna um "Olá Mundo!"]
+**Tarefa:** Consumir a API de personagens do Avatar (`https://last-airbender-api.fly.dev/api/v1/characters`) usando a biblioteca `requests`, e imprimir a resposta JSON no console.
 
 **Status:** ✅ Concluído / 🚧 Em Progresso
 
