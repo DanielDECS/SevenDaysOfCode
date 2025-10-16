@@ -1,4 +1,5 @@
-# Day01/day01_consumir_api.py
+# Dia 01 - Um script para consumir uma API pública e imprimir a resposta JSON.
+# API utilizada: Personagens de Avatar (https://last-airbender-api.fly.dev/)
 
 import requests # Biblioteca para fazer requisições HTTP
 import json     # Biblioteca para manipular dados em formato JSON
@@ -12,6 +13,9 @@ def consumir_api_avatar():
     """
     Realiza uma requisição GET para a API de personagens de Avatar e imprime a resposta.
     """
+
+
+
     print(f"1. Fazendo requisição GET para a API: {API_URL}")
     try:
         # 1. Criar o código Python para executar uma requisição HTTP do tipo GET
@@ -25,6 +29,8 @@ def consumir_api_avatar():
         print("\n2. Resposta JSON completa (corpo da resposta):")
         # Usando o pprint para formatar o JSON de forma mais organizada na saída
         pprint.pprint(data)
+        print("\n3. Outra forma de imprimir o JSON formatado):")
+        print(json.dumps(data, indent=4))  
         # Imprime o número total de personagens recebidos, apenas como verificação extra
         print(f"\nTotal de personagens recebidos: {len(data)}")
     
