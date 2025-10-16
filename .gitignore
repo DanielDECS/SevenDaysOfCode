@@ -3,5 +3,24 @@
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Ambientes Virtuais
 venv/
 .venv/
+
+# Logs e Dados de Ambiente
+*.log
+.env
+.flaskenv
+
+### Django ###
+# Banco de dados padrão do SQLite
+db.sqlite3
+
+# Arquivos de mídia e static files gerados
+/media
+/static
+
+# Arquivos de cache do IDE e Django
+*.sqlite3
+.DS_Store

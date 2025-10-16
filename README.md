@@ -7,7 +7,7 @@ Este repositório contém os projetos desenvolvidos durante o desafio **7 Days o
 ## 🛠️ Tecnologias Utilizadas
 
 * **Linguagem:** Python
-* **Framework Web (A Definir):** [Preencha com o Framework Principal, ex: Flask ou Django]
+* **Framework Web:** Django
 * **Banco de Dados (Opcional):** [Preencha com o BD, ex: SQLite, PostgreSQL]
 * **Outras Bibliotecas:** `requests`, `googletrans` (versão 3.1.0a0)
 
@@ -27,11 +27,11 @@ Este repositório contém os projetos desenvolvidos durante o desafio **7 Days o
 
 **Status:** ✅ Concluído
 
-### Dia 3: Introdução ao Banco de Dados
+### Dia 3: Configuração do Projeto Django
 
-**Tarefa:** [Preencha com a tarefa específica do Dia 3, ex: Configurar o projeto para usar um banco de dados (ex: SQLite) e criar o modelo de dados inicial (ORM).]
+**Tarefa:** Iniciar um projeto Django e um aplicativo (`personagens`), fazer as configurações necessárias para registro do app e executar o projeto com sucesso. (O projeto Django foi iniciado na pasta `Day03`).
 
-**Status:** 🚧 Em Progresso
+**Status:** ✅ Concluído
 
 ### Dia 4: Implementação de Rotas CRUD (Leitura e Criação)
 
@@ -68,7 +68,7 @@ Este repositório contém os projetos desenvolvidos durante o desafio **7 Days o
     ```
 
 2.  **Crie e ative um ambiente virtual:**
-    * *Nota: Se encontrar erros de compatibilidade, tente usar uma versão do Python anterior à 3.14 (ex: 3.12) para criar o venv.*
+    * *Nota: Se encontrar erros de compatibilidade, use o Python 3.12 (ou anterior) para criar o venv.*
     ```bash
     python3 -m venv venv
     source venv/bin/activate  # No Linux/macOS
@@ -79,19 +79,15 @@ Este repositório contém os projetos desenvolvidos durante o desafio **7 Days o
     ```bash
     pip install -r requirements.txt
     ```
-    *(Você deve gerar o arquivo `requirements.txt` com `pip freeze > requirements.txt`)*
 
-4.  **Execute a aplicação:**
+4.  **Execute a aplicação (a partir da pasta `Day03`):**
     ```bash
-    # Se estiver usando Flask
-    python app.py 
-    
-    # Se estiver usando Django (ajuste o comando conforme o projeto)
+    cd Day03
     python manage.py runserver
     ```
     
 5.  **Acesse:**
-    Abra seu navegador e acesse `http://127.0.0.1:5000/` (ou a porta que o seu framework indicar).
+    Abra seu navegador e acesse `http://127.0.0.1:8000/`.
 
 ---
 
