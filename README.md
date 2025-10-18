@@ -8,7 +8,7 @@ Este repositório contém os projetos desenvolvidos durante o desafio **7 Days o
 
 * **Linguagem:** Python
 * **Framework Web:** Django
-* **Banco de Dados (Opcional):** [Preencha com o BD, ex: SQLite, PostgreSQL]
+* **Banco de Dados (Opcional):** SQLite
 * **Outras Bibliotecas:** `requests`, `googletrans` (versão 3.1.0a0)
 
 ---
@@ -33,11 +33,11 @@ Este repositório contém os projetos desenvolvidos durante o desafio **7 Days o
 
 **Status:** ✅ Concluído
 
-### Dia 4: Implementação de Rotas CRUD (Leitura e Criação)
+### Dia 4: Criação de Views, Rotas e Templates
 
-**Tarefa:** [Preencha com a tarefa específica do Dia 4, ex: Criar rotas para exibir uma lista de itens do BD (Read) e um formulário para adicionar novos itens (Create).]
+**Tarefa:** Criar a View (lógica), configurar as rotas (`urls.py`) do projeto e do app, e usar um template HTML simples para exibir os dados dos personagens consumidos e traduzidos da API. (O trabalho foi desenvolvido na pasta `Day04`).
 
-**Status:** 🚧 Em Progresso
+**Status:** ✅ Concluído
 
 ### Dia 5: Implementação de Rotas CRUD (Atualização e Exclusão)
 
