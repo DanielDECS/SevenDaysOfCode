@@ -1,6 +1,6 @@
 # Desafio #7DaysOfCode - Python Web 🐍🌐
 
-Este repositório contém os projetos desenvolvidos durante o desafio **7 Days of Code - Python Web**, uma iniciativa da Alura. O objetivo é exercitar e aprofundar conhecimentos em desenvolvimento web utilizando a linguagem Python.
+Este repositório contém os projetos desenvolvidos durante o desafio **7 Days of Code of Code - Python Web**, uma iniciativa da Alura. O objetivo é exercitar e aprofundar conhecimentos em desenvolvimento web utilizando a linguagem Python.
 
 ---
 
@@ -8,7 +8,8 @@ Este repositório contém os projetos desenvolvidos durante o desafio **7 Days o
 
 * **Linguagem:** Python
 * **Framework Web:** Django
-* **Banco de Dados (Opcional):** SQLite
+* **Estilização:** Bootstrap
+* **Banco de Dado:** SQLite
 * **Outras Bibliotecas:** `requests`, `googletrans` (versão 3.1.0a0)
 
 ---
@@ -39,11 +40,11 @@ Este repositório contém os projetos desenvolvidos durante o desafio **7 Days o
 
 **Status:** ✅ Concluído
 
-### Dia 5: Implementação de Rotas CRUD (Atualização e Exclusão)
+### Dia 5: Estilização com Bootstrap e Tabela de Dados
 
-**Tarefa:** [Preencha com a tarefa específica do Dia 5, ex: Adicionar rotas para editar (Update) e excluir (Delete) os itens no banco de dados, completando o CRUD.]
+**Tarefa:** Integrar o framework Bootstrap ao template e desenvolver uma tabela HTML estilizada para organizar e exibir de forma clara os dados (foto, nome e afiliação) dos personagens consumidos da API. (O trabalho foi desenvolvido na pasta `Day05`).
 
-**Status:** 🚧 Em Progresso
+**Status:** ✅ Concluído
 
 ### Dia 6: Melhorias e Validações
 
@@ -63,8 +64,8 @@ Este repositório contém os projetos desenvolvidos durante o desafio **7 Days o
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [LINK DO SEU REPOSITÓRIO]
-    cd nome-do-projeto
+    git clone [https://github.com/DanielDECS/SevenDaysOfCodePython.git](https://github.com/DanielDECS/SevenDaysOfCodePython.git)
+    cd SevenDaysOfCodePython
     ```
 
 2.  **Crie e ative um ambiente virtual:**
@@ -80,9 +81,9 @@ Este repositório contém os projetos desenvolvidos durante o desafio **7 Days o
     pip install -r requirements.txt
     ```
 
-4.  **Execute a aplicação (a partir da pasta `Day03`):**
+4.  **Execute a aplicação (a partir da pasta `Day05`):**
     ```bash
-    cd Day03
+    cd Day05
     python manage.py runserver
     ```
     
@@ -94,5 +95,5 @@ Este repositório contém os projetos desenvolvidos durante o desafio **7 Days o
 ## 👤 Autor
 
 * **Daniel Soares**
-    * [Seu Perfil do GitHub]
-    * [Seu LinkedIn]
+    * **GitHub:** https://github.com/DanielDECS
+    * **LinkedIn:** https://www.linkedin.com/in/danieldecs/
