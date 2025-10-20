@@ -1,6 +1,6 @@
 # Desafio #7DaysOfCode - Python Web 🐍🌐
 
-Este repositório contém os projetos desenvolvidos durante o desafio **7 Days of Code of Code - Python Web**, uma iniciativa da Alura. O objetivo é exercitar e aprofundar conhecimentos em desenvolvimento web utilizando a linguagem Python.
+Este repositório contém os projetos desenvolvidos durante o desafio **7 Days of Code - Python Web**, uma iniciativa da Alura. O objetivo é exercitar e aprofundar conhecimentos em desenvolvimento web utilizando a linguagem Python.
 
 ---
 
@@ -9,8 +9,7 @@ Este repositório contém os projetos desenvolvidos durante o desafio **7 Days o
 * **Linguagem:** Python
 * **Framework Web:** Django
 * **Estilização:** Bootstrap
-* **Banco de Dado:** SQLite
-* **Outras Bibliotecas:** `requests`, `googletrans` (versão 3.1.0a0)
+* **Outras Bibliotecas:** `requests`, `googletrans` (versão 3.1.0a0)g
 
 ---
 
@@ -46,17 +45,17 @@ Este repositório contém os projetos desenvolvidos durante o desafio **7 Days o
 
 **Status:** ✅ Concluído
 
-### Dia 6: Melhorias e Validações
+### Dia 6: Geração de ID Sequencial com Template Tags
 
-**Tarefa:** [Preencha com a tarefa específica do Dia 6, ex: Implementar validação de formulários (client-side e/ou server-side) e realizar tratamento de erros na aplicação.]
+**Tarefa:** Implementar uma coluna de ID sequencial na tabela, utilizando a template tag `forloop.counter` do Django para gerar um número fixo para cada item, simulando um ID automático na visualização. (O trabalho foi desenvolvido na pasta `Day06`).
 
-**Status:** 🚧 Em Progresso
+**Status:** ✅ Concluído
 
-### Dia 7: Documentação e Preparação para Produção
+### Dia 7: Paginação dos Dados
 
-**Tarefa:** [Preencha com a tarefa específica do Dia 7, ex: Revisar e documentar o projeto, e preparar os arquivos necessários para um deploy (ex: `requirements.txt`).]
+**Tarefa:** Implementar a lógica de paginação na view, utilizando o utilitário `Paginator` do Django para dividir a lista de personagens em páginas menores, melhorando a performance e a experiência do usuário. (O trabalho foi desenvolvido na pasta `Day07`).
 
-**Status:** 🚧 Em Progresso
+**Status:** 🎉 Concluído
 
 ---
 
@@ -81,9 +80,9 @@ Este repositório contém os projetos desenvolvidos durante o desafio **7 Days o
     pip install -r requirements.txt
     ```
 
-4.  **Execute a aplicação (a partir da pasta `Day05`):**
+4.  **Execute a aplicação (a partir da pasta `Day07`):**
     ```bash
-    cd Day05
+    cd Day07
     python manage.py runserver
     ```
     
